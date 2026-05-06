@@ -282,7 +282,7 @@ If loaded into Python, the entire results dictionary would have the type signatu
 
 ### Option 2: `lmms-eval`
 
-VideoNet is [pending integration](https://github.com/EvolvingLMMs-Lab/lmms-eval/pull/1308) into the [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval) codebase. Here are the specific task names:
+VideoNet is [integrated](https://github.com/EvolvingLMMs-Lab/lmms-eval/pull/1308) into the [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval) codebase. Here are the specific task names:
 
 - `videonet_mcq_test`
 - `videonet_mcq_val`
@@ -290,10 +290,6 @@ VideoNet is [pending integration](https://github.com/EvolvingLMMs-Lab/lmms-eval/
 - `videonet_binary_1shot`
 - `videonet_binary_2shot`
 - `videonet_binary_3shot`
-
-Until the pull request is approved, you can manually integrate VideoNet into your local copy of `lmms-eval` by unzipping [this folder](./misc/videonet_lmms-eval_integration.zip) inside `lmms-eval/lmms_eval/tasks/`.
-
-Please reply to [the PR](https://github.com/EvolvingLMMs-Lab/lmms-eval/pull/1308) expressing your interest so the `lmms-eval` maintainers know to prioritize approving our integration.
 
 ### Option 3: Integrating with Your Codebase
 
